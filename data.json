@@ -1,0 +1,150 @@
+{
+    "araclar": [
+        {
+            "arac_id": "V02",
+            "marka": "BMW",
+            "model": "M4",
+            "tip": "Spor",
+            "kilometre": 8000,
+            "saatlik_ucret": 1500,
+            "musait_mi": true
+        },
+        {
+            "arac_id": "V03",
+            "marka": "Tesla",
+            "model": "Model 3",
+            "tip": "Elektrikli",
+            "kilometre": 5000,
+            "saatlik_ucret": 900,
+            "musait_mi": false
+        },
+        {
+            "arac_id": "V05",
+            "marka": "Rolls-Royce",
+            "model": "Ghost",
+            "tip": "Lüks",
+            "kilometre": 1200.0,
+            "saatlik_ucret": 5500.0,
+            "musait_mi": true
+        },
+        {
+            "arac_id": "V06",
+            "marka": "Ferrari",
+            "model": "F8 Tributo",
+            "tip": "Spor",
+            "kilometre": 3500.0,
+            "saatlik_ucret": 4800.0,
+            "musait_mi": true
+        },
+        {
+            "arac_id": "V08",
+            "marka": "mercedes c-class",
+            "model": "x5",
+            "tip": "lüks",
+            "kilometre": 15.0,
+            "saatlik_ucret": 1.2,
+            "musait_mi": true
+        }
+    ],
+    "kullanicilar": [
+        {
+            "kullanici_id": "U01",
+            "ad": "Ahmet Yılmaz",
+            "ehliyet_no": "A1234567",
+            "telefon": ""
+        },
+        {
+            "kullanici_id": "U02",
+            "ad": "Ayşe Demir",
+            "ehliyet_no": "B9876543",
+            "telefon": ""
+        },
+        {
+            "kullanici_id": "U03",
+            "ad": "Lujayin Alajhar",
+            "ehliyet_no": "LO23453546",
+            "telefon": ""
+        },
+        {
+            "kullanici_id": "U06",
+            "ad": "Obada Alshami",
+            "ehliyet_no": "OL87924738",
+            "telefon": ""
+        },
+        {
+            "kullanici_id": "U07",
+            "ad": "lujayen alajhar",
+            "ehliyet_no": "873463748",
+            "telefon": ""
+        },
+        {
+            "kullanici_id": "U08",
+            "ad": "ali yılmaz",
+            "ehliyet_no": "B1234567",
+            "telefon": ""
+        }
+    ],
+    "kiralamalar": [
+        {
+            "kiralama_id": 1,
+            "arac_id": "V02",
+            "kullanici_id": "U06",
+            "baslangic_saati": "2026-04-26T22:56:14.776185",
+            "bitis_saati": "2026-04-27T22:56:14.776185",
+            "aktif": false,
+            "toplam_ucret": 36000.0
+        },
+        {
+            "kiralama_id": 2,
+            "arac_id": "V03",
+            "kullanici_id": "U03",
+            "baslangic_saati": "2026-04-26T22:57:20.681105",
+            "bitis_saati": null,
+            "aktif": true,
+            "toplam_ucret": 0.0
+        },
+        {
+            "kiralama_id": 3,
+            "arac_id": "V05",
+            "kullanici_id": "U01",
+            "baslangic_saati": "2026-04-26T22:58:01.811155",
+            "bitis_saati": "2026-04-30T00:58:01.811155",
+            "aktif": false,
+            "toplam_ucret": 284900.0
+        },
+        {
+            "kiralama_id": 4,
+            "arac_id": "V05",
+            "kullanici_id": "U02",
+            "baslangic_saati": "2026-04-26T22:59:21.130954",
+            "bitis_saati": "2026-04-30T06:59:21.130954",
+            "aktif": false,
+            "toplam_ucret": 308000.0
+        },
+        {
+            "kiralama_id": 5,
+            "arac_id": "V02",
+            "kullanici_id": "U01",
+            "baslangic_saati": "2026-05-12T19:58:24.687368",
+            "bitis_saati": "2026-05-16T01:58:24.687368",
+            "aktif": false,
+            "toplam_ucret": 81900.0
+        },
+        {
+            "kiralama_id": 6,
+            "arac_id": "V02",
+            "kullanici_id": "U01",
+            "baslangic_saati": "2026-05-14T11:39:33.073539",
+            "bitis_saati": "2026-05-15T11:39:33.073539",
+            "aktif": false,
+            "toplam_ucret": 36000.0
+        }
+    ],
+    "odemeler": [],
+    "bakimlar": [],
+    "counters": {
+        "kid": 7,
+        "oid": 1,
+        "bid": 1
+    }
+}
